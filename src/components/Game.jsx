@@ -113,8 +113,8 @@ const Game = () => {
         <h2>Current Letter: {currentLetter}</h2>
       </div>
       <div className="message">
-          {gameStatus === 'victory' && <h2>Victory! You've placed all letters in order.</h2>}
-          {gameStatus === 'fail' && <h2>Fail! No valid spaces left.</h2>}
+          {gameStatus === 'victory' && <h2>🎉 Victory! All letters are in order.🥳 </h2>}
+          {gameStatus === 'fail' && <h2>💣 Fail! No valid spaces left.👎 </h2>}
           {gameStatus === 'ongoing' && <h2>&nbsp;</h2>}
         </div>
       <div className="grid">
